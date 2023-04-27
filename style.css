@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.area {
+    display: flex;
+}
+
+
+.title {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+aside {
+    margin-top: 40px;
+    padding: 10px;
+
+    height: calc(100vh - 95px);
+    width: 210px;
+    border: 1px solid #000 ;
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside ul,
+aside li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+aside li {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardsArea {
+    flex: 1;
+    margin-top: 40px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    height: 200px;
+    background-color: rgb(46, 209, 95);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+    box-shadow: 1px 1px 10px #0000005e;
+
+    cursor: pointer;
+}
+
+.card .card-id {
+    text-align: right;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 90px;
+}
+
+.card-name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-types {
+    display: flex;
+    justify-content: space-around;
+
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.mainType {
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.secondType {
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
